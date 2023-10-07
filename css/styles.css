@@ -448,14 +448,13 @@ background: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
 padding: 40px 32px;
+display: flex;
+    align-items: baseline;
 
 }
 
 .footer-container {
-display: flex;
-align-items: baseline;
 
-    
 }
 
 .container-footer-logo {
@@ -503,7 +502,6 @@ width: 264px;
 
 
 .footer-soc-item{
-background-color: #4d5ae5;
     border-radius: 50%;
     cursor: pointer;
     width: 40px;
@@ -518,6 +516,7 @@ background-color: #4d5ae5;
 .footer-soc-link {
     width: 100%;
     height: 100%;
+    background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
